@@ -8,7 +8,8 @@ namespace GamePro
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
-
+        private int G = 0;
+        private int B = 0;
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -34,7 +35,7 @@ namespace GamePro
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
-
+            G = 1;
             // TODO: Add your update logic here
 
             base.Update(gameTime);
