@@ -10,6 +10,7 @@ namespace GamePro
         private SpriteBatch _spriteBatch;
         private int G = 5;
         private int B = 5;
+        private bool move;
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
