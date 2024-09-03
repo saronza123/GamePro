@@ -9,6 +9,7 @@ namespace GamePro
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
         private int G = 5;
+        private int B = 5;
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
